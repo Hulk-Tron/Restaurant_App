@@ -1,0 +1,41 @@
+<ion-view title="Restaurant app Menu">
+
+  <ion-nav-buttons side="right">
+    <button class="button button-energized" ng-click="logoff()">
+      LogOut
+    </button>
+       </ion-nav-buttons>
+
+        <div class="list list-inset">
+         <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Search">
+         </label>
+
+       </div>
+       <!--ng-repeat="(key,value) in com"-->
+       <div class="card" ng-repeat="n in valu.restname">
+
+       <div class="item item-divider">
+       {{n}}
+        </div>
+        <div class="item item-text-wrap" ng-repeat="b in valu.menu"> {{b}}
+        <div class="fgh"> <a class="button button-balanced" href="#/detail" >
+          Show Detail
+        </a>
+        </div>
+        </div>
+          <div class="item item-divider" ng-repeat="b in valu.deliveryfee">
+    {{b}}
+
+
+        </div>
+
+      <div class="fgh"> <a class="button button-balanced" ng-click="menu($index)">
+        Add to cart
+      </a>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

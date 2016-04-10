@@ -1,0 +1,8 @@
+{
+    "restaurant" : {
+        "restname" :["Kfc", "Fine dinning", "shinwari","rollpoint"],
+        "rating" : [1,2,4,2,],
+        "delivery fee" : [1200,451,450,1250],
+        "minimumfess" : [120,120,140,1024,10]
+    }
+}

@@ -1,0 +1,29 @@
+<ion-view>
+  <ion-content>
+    <h1>Signup Page</h1>
+    <form ng-submit="signup(rest)">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="rest Name" ng-model="rest.Restname">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="RATTING Name" ng-model="rest.rating">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder=" Address" ng-model="rest.address">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="MENU" ng-model="rest.menu">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="DESCRIPTION" ng-model="rest.description">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="PRICE LIST" ng-model="rest.pricelist">
+        </label>
+        <button type="submit">SignUp Me</button>
+      </div>
+    </form>
+
+  </ion-content>
+</ion-view>
